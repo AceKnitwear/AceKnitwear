@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE KNITWEAR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to ACE KNITWEAR</h1>
+            <p>Handmade and Sustainable Fashion</p>
+            <a href="#shop" class="cta">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>ACE KNITWEAR is dedicated to providing handmade, eco-friendly fashion. Our products are crafted with love and care, ensuring high quality and sustainability.</p>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop">
+        <h2>Shop</h2>
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="bag.jpg" alt="Knitted Bag">
+                <h3>Knitted Bag</h3>
+                <p>$45.00</p>
+                <a href="#" class="cta">Buy Now</a>
+            </div>
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="hat.jpg" alt="Knitted Hat">
+                <h3>Knitted Hat</h3>
+                <p>$30.00</p>
+                <a href="#" class="cta">Buy Now</a>
+            </div>
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="top.jpg" alt="Knitted Top">
+                <h3>Knitted Top</h3>
+                <p>$55.00</p>
+                <a href="#" class="cta">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="cta">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 ACE KNITWEAR. All rights reserved.</p>
+    </footer>
+</body>
+</html>
